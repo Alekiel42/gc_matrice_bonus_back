@@ -1,0 +1,17 @@
+### Envoi d'une réponse juste
+POST http://localhost:3000/answer
+Content-Type: application/x-www-form-urlencoded
+
+matrice=111111
+
+### Envoi d'une réponse fausse
+POST http://localhost:3000/answer
+Content-Type: application/x-www-form-urlencoded
+
+matrice=11454
+
+### Absence de reponse
+POST http://localhost:3000/answer
+Content-Type: application/x-www-form-urlencoded
+
+matrice=
