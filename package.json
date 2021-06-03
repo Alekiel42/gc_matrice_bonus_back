@@ -1,0 +1,25 @@
+{
+  "name": "gc_matrice_bonus_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alekiel42/gc_matrice_bonus_back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alekiel42/gc_matrice_bonus_back/issues"
+  },
+  "homepage": "https://github.com/Alekiel42/gc_matrice_bonus_back#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
