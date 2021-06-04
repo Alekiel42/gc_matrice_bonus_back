@@ -3,8 +3,7 @@ const sanitizeHtml = require('sanitize-html');
 module.exports = {
     compareResult: (req, res) => {
         try{
-            const data = req.body;
-            console.log('req', req.body);
+            const data = req.body;            
             const errors = [];
 
             if (!data.matrice) {
