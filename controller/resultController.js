@@ -17,7 +17,9 @@ module.exports = {
             data.matrice = sanitizeHtml(data.matrice);
 
             if(data.matrice === process.env.GOOD_ANSWER){
-                res.status(201).json({ gps : process.env.GPS });
+                res.status(201).json({ message : `Rendez-vous aux coordonnées ${process.env.GPS} pour trouver la cache` });
+            } else if(data.matrice === process.env.ANSWER_TEST) {
+                res.status(201).json({ message: 'Vous êtes entrée dans la Matrice avec un code test (par chance ou parce que vous êtes passé par mon portfolio). Pour découvrir les coordonnées GPS rechargez la page et recommencez avec le bon code.'});
             } else {
                 res.status(202).json({ message: 'La Matrice est incorrect veuillez rééessayer'});
             }
