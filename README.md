@@ -1,3 +1,5 @@
+![screenshot du eu](./screenshot/matrice1.png)
+
 # Géocaching : cache bonus Matrice (back)
 
 ## Il était une fois... 
@@ -15,10 +17,6 @@ La bonne réponse est stockée dans une variable d'environnement, côté back ce
 Si la réponse est juste, l'application renvoie au front les coordonnées GPS qui indiquent l'emplacement de la dernière cache à trouver. 
 
 Vous pouvez tester le jeu hébergé sur [herokuapp](https://matrice-gc.herokuapp.com/). J'utilise la version freemium d'Heroku, le temps de chargement peut être très long car Heroku éteint les serveurs en cas de non utilisation du site. Pour valider la (fausse) bonne réponse, remplissez la matrice de "triangles". 
-
-## Screenshot du jeu
-
-![screenshot du eu](./screenshot/matrice1.png)
 
 ## Stack Technique (prérequis)
 
@@ -44,7 +42,7 @@ git clone <url du repo>
 npm install 
 ```
 4. Adaptez votre fichier `.env` avec les informations du jeu.
-9. Exécuter `npm start` pour lancer l'application. 
+5. Exécuter `npm start` pour lancer l'application. 
 
 
 ### variables Env
