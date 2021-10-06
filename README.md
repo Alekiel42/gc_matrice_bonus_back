@@ -44,6 +44,9 @@ npm install
 4. Adaptez votre fichier `.env` avec les informations du jeu.
 5. Exécuter `npm start` pour lancer l'application. 
 
+Le repo du front-end se trouve sur github : [gc_matrice_bonus_front](https://github.com/Alekiel42/gc_matrice_bonus_front). 
+
+
 
 ### variables Env
 
