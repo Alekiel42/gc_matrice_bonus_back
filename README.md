@@ -16,6 +16,10 @@ Si la réponse est juste, l'application renvoie au front les coordonnées GPS qu
 
 Vous pouvez tester le jeu hébergé sur [herokuapp](https://matrice-gc.herokuapp.com/). J'utilise la version freemium d'Heroku, le temps de chargement peut être très long car Heroku éteint les serveurs en cas de non utilisation du site. Pour valider la (fausse) bonne réponse, remplissez la matrice de "triangles". 
 
+## Screenshot du jeu
+
+![screenshot du eu](./screenshot/matrice1.png)
+
 ## Stack Technique (prérequis)
 
 ![](https://img.shields.io/badge/-Node.js-05122A?style=for-the-badge&logo=Node.js) 
@@ -25,8 +29,6 @@ Vous pouvez tester le jeu hébergé sur [herokuapp](https://matrice-gc.herokuapp
 Git : https://git-scm.com/downloads
 
 NodeJS (v12 ou supérieure) : https://nodejs.org/en/download/
-
-
 
 ## Comment l'utiliser ? 
 
