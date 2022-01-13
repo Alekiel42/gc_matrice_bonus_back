@@ -7,7 +7,7 @@ module.exports = {
             const errors = [];
 
             if (!data.matrice) {
-                errors.push(`La matrice n'est pas complétée`);
+                errors.push(`La Matrice n'est pas complétée`);
             }
 
             if (errors.length > 0) {
@@ -21,7 +21,7 @@ module.exports = {
             } else if (data.matrice === process.env.GOOD_ANSWER) {
                 res.status(201).json({ gps: process.env.GPS });
             } else {
-                res.status(202).json({ message: 'La Matrice est incorrect veuillez rééessayer' });
+                res.status(202).json({ message: 'La Matrice est incorrecte, veuillez rééessayer' });
             }
         } catch (error) {
             console.trace(error);
